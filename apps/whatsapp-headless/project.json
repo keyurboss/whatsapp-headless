@@ -21,6 +21,12 @@
         "production": {
           "optimization": true,
           "extractLicenses": true,
+          "fileReplacements": [
+            {
+              "replace": "apps/whatsapp-headless/src/environments/env.ts",
+              "with": "apps/whatsapp-headless/src/environments/env.pro.ts",
+            }
+          ],
           "inspect": false
         }
       }
