@@ -7,7 +7,7 @@ tmp
 
 # dependencies
 node_modules
-
+install-state.gz
 # IDEs and editors
 /.idea
 .project
